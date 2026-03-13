@@ -1,0 +1,13 @@
+[project]
+name = "code-backup"
+version = "1.0.0"
+dependencies = []
+
+[project.scripts]
+# This defines the command name and where it points
+# format: command_name = "filename_without_extension:function_name"
+code-backup = "script:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
